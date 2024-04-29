@@ -4,6 +4,8 @@ library(dplyr)
 library(plotly)
 library(DT)
 library(tidyr)
+library(shinydashboard)
+
 # load data sets
 mineral <- read.csv("Mineral ores round the world.csv")
 
@@ -17,149 +19,138 @@ mineral <- mineral |>
   mutate(latitude = as.numeric(latitude),
          longitude = as.numeric(longitude))
 
-# ui 
-ui <- fluidPage(
-  # page 0 - introduction
-  navbarPage(
-    "Mineral Distribution", 
-    tabPanel("Introduction",
-             
-             tags$style(type = "text/css", 
-                        "
-                          body{
-                          background: #11ffee00; 
-                          background-size: cover;
-                          background-repeat: no-repeat;
-                          background-attachment: fixed;
-                          color: #191919;
-                          margin: 0;
-                          font-family: 'Georgia', serif;
-                          style: 'border-radius: 50%;'
-                          }
-                          .bottom-rectangle {
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            background: #333;
-                            color: #fff;
-                            text-align: center;
-                            padding: 30px;
-                            font-family: 'URW Chancery L', cursive;
-                          }
-                          .author-info {
-                            display: flex;
-                            justify-content: center; 
-                            align-items: center; 
-                            font-family: 'Chalkduster', fantasy;
-                          }
-                          .author-info-text {
-                            color: rgb(8, 51, 68);
-                            margin-left: 20px;
-                          }
-              "),
-             class = "center-box",
-             style = "text-align: center;",
-             div(
-               style = "text-align: center;",
-               img(src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHU2ajlrNDcwa2c1dTNqejMxdzJmeGdwNGV0bjU0dGp6Zmx3c2I2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2dPo5eE97Aw5q/giphy.gif", height = "230px", width = "60%", style = "border-radius: 8px;")
-             ),
-             h2("Welcome to the Mineral Distribution Searching App"),
-             p("Explore and analyze Mineral Distribution around the world!"),
-             p("Navigate through different tabs to discover more information."),
-             p("Use filters to customize your search."),
-             p("Enjoy exploring!"),
-             br(),
-             
-             div(
-               style = "text-align: center;",
-               div(
-                 class = "author-info",
 
-                   #class = "author-info-text",
-                   p("Author: "),
-                   p("5260")
-                 
-               )
-             ),
-             
-             absolutePanel(class = "bottom-rectangle",
-                           "Disclaimer: This app is for educational purposes and does not provide real-time data."
-             )
-    ),
-    
-    # first page
-    tabPanel("Map",  
-             
-             titlePanel("Mineral Distribution Map"),
-             h4("Click on blue points on the map for site details!"),
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput("country", "Select Country:",
-                             choices = c("all", unique(mineral$country))),
-                 selectizeInput("state", "Select State:",
-                                choices = unique(mineral$state),
-                                multiple = TRUE),
-                 selectInput("dev_stat", "Select Development Status:",
-                             choices = c("all", unique(mineral$dev_stat))),
-                 selectInput("oper_type", "Select Operation Type:",
-                             choices = c("all", unique(mineral$oper_type))),
+# ui
+ui <- dashboardPage(
+  skin = "green",
+  dashboardHeader(title = "Mineral Distribution"),
+  dashboardSidebar(
+    sidebarMenu(
+      menuItem("Introduction", tabName = "intro", icon = icon("info-circle")),
+      menuItem("Map", tabName = "map", icon = icon("map")),
+      menuItem("US Mineral Site Num", tabName = "us_num", icon = icon("bar-chart")),
+      menuItem("Main Commod Site Num", tabName = "main_commod", icon = icon("bar-chart"))
+    )
+  ),
+  dashboardBody(
+    tabItems(
+      tabItem(tabName = "intro",
+              fluidRow(
+                box(
+                  width = 12,
+                  tags$style(type = "text/css",
+                             "
+                       
+                       .author-info {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         font-family: 'Chalkduster', fantasy;
+                       }
+                      
+                       "
+                  ),
+                  div(
+                    style = "text-align: center;",
+                    img(src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHU2ajlrNDcwa2c1dTNqejMxdzJmeGdwNGV0bjU0dGp6Zmx3c2I2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2dPo5eE97Aw5q/giphy.gif",
+                        height = "230px", width = "60%", style = "border-radius: 8px;")
+                  ),
+                  div(
+                    style = "text-align: center;",
+                    h2("Welcome to the Mineral Distribution Searching App"),
+                    p("Explore and analyze Mineral Distribution around the world!"),
+                    p("Navigate through different tabs to discover more information."),
+                    p("Use filters to customize your search."),
+                    p("Enjoy exploring!"),
+                    br()
+                  ),
+                  div(
+                    style = "text-align: center;",
+                    div(
+                      class = "author-info",
+                      p("Author: "),
+                      p("5260")
+                    )
+                  )
+                )
+              )
+      ),
+      tabItem(tabName = "map",
+              fluidRow(
+                box(
+                  width = 4,
+                  selectInput("country", "Select Country:",
+                              choices = c("all", unique(mineral$country))),
+                  selectizeInput("state", "Select State:",
+                                 choices = unique(mineral$state),
+                                 multiple = TRUE),
+                  selectInput("dev_stat", "Select Development Status:",
+                              choices = c("all", unique(mineral$dev_stat))),
+                  selectInput("oper_type", "Select Operation Type:",
+                              choices = c("all", unique(mineral$oper_type))),
+                  actionButton("reset", "Reset Selection")
+                ),
+                box(
+                  width = 8,
+                  leafletOutput("map"),
+                  dataTableOutput("results_table")
+                )
+              )
+      ),
+      tabItem(tabName = "us_num",
+              fluidRow(
+                box(
+                  width = 12,
+                  title = "Number of mineral sites within the United States",
+                  selectInput("commod1_plot", "Select Main Commodity:",
+                              choices = c("all", unique(mineral$main_commod)),
+                              multiple = TRUE,
+                              selected = "all"),
+                  selectInput("ore_plot", "Select Main Ore Type:",
+                              choices = c("all", unique(mineral$main_ore)),
+                              multiple = TRUE,
+                              selected = "all"),
+                  actionButton("reset_filters_plot", "Reset Filters")
+                )
+              ),
+              fluidRow(
+                box(
+                  width = 12,
+                  div(
+                    style = "height: 600px; overflow-y: scroll;",
+                    plotlyOutput("bar_chart_plot")
+                  )
+                )
+              )
+      ),
+      tabItem(tabName = "main_commod",
+              fluidRow(
+                box(
+                  width = 4,
+                  title = "Distribution of different main commod types",
+                  selectInput("country_plot_3", "Select Country:",
+                              choices = c("all", unique(mineral$country)),
+                              selected = "all"),
+                  sliderInput("latitude_plot_3", "Select Latitude Range:",
+                              min = -90, max = 90, value = c(-90, 90)),
+                  sliderInput("longitude_plot_3", "Select Longitude Range:",
+                              min = -180, max = 180, value = c(-180, 180)),
+                  actionButton("reset_filters_3", "Reset Filters")
+                ),
+                box(
+                  width = 8,
+                  div(
+                    style = "height: 600px; overflow-y: scroll; display: flex; justify-content: flex-start;",
+                    plotlyOutput("plot_3")
+                  )
+                )
+              )
               
-                 actionButton("reset", "Reset Selection")
-               ),
-               mainPanel(
-                 leafletOutput("map"),
-                 dataTableOutput("results_table")
-               )
-             )
-    ),
-    
-    # second page
-    
-    tabPanel("US Mineral Site Num",
-             
-             titlePanel("Number of mineral sites within the United States"),
-             selectInput("commod1_plot", "Select Main Commodity:",
-                                choices = c("all", unique(mineral$main_commod)),
-                                multiple = TRUE,
-                                selected = "all"),
-             
-             selectInput("ore_plot", "Select Main Ore Type:",
-                         choices = c("all", unique(mineral$main_ore)),
-                         multiple = TRUE,
-                         selected = "all"),
-             actionButton("reset_filters_plot", "Reset Filters"),
-             
-             plotlyOutput("bar_chart_plot")
-             
-    ),
-    # third page
-    tabPanel("Main Commod Site Num",
-             
-             titlePanel("Distribution of different main commod types"),
-             
-             sidebarLayout(
-               sidebarPanel(
-             selectInput("country_plot_3", "Select Country:",
-                         choices = c("all", unique(mineral$country)),
-                         selected = "all"),
-             
-          
-             sliderInput("latitude_plot_3", "Select Latitude Range:",
-                         min = -90, max = 90, value = c(-90, 90)),
-             sliderInput("longitude_plot_3", "Select Longitude Range:",
-                         min = -180, max = 180, value = c(-180, 180)),
-             actionButton("reset_filters_3", "Reset Filters")
-               ),
-             
-             mainPanel(
-             plotlyOutput("plot_3")
-             )
-             )
-             
-    ),
-    
+      )
+      
+    )
   )
+
 )
 
 # server
