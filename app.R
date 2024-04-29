@@ -34,7 +34,7 @@ smartphones <- smartphones %>%
 # ui
 ui <- dashboardPage(
   skin = "green",
-  dashboardHeader(title = "Mineral Distribution"),
+  dashboardHeader(title = "Physical Impact of Tech"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Introduction", tabName = "intro", icon = icon("info-circle")),
@@ -70,8 +70,8 @@ ui <- dashboardPage(
                   ),
                   div(
                     style = "text-align: center;",
-                    h2("Welcome to the Mineral Distribution Searching App"),
-                    p("Explore and analyze Mineral Distribution around the world!"),
+                    h2("Welcome to the Physical Impact of Tech Searching App"),
+                    p("Explore and analyze different aspects of tech impact around the world!"),
                     p("Navigate through different tabs to discover more information."),
                     p("Use filters to customize your search."),
                     p("Enjoy exploring!"),
@@ -82,7 +82,7 @@ ui <- dashboardPage(
                     div(
                       class = "author-info",
                       p("Author: "),
-                      p("5260")
+                      p("Caitlin Tavas, Zhe Yin, Muhan Zhang, Qingyao Meng, Lirui Xiao")
                     )
                   )
                 )
@@ -163,12 +163,14 @@ ui <- dashboardPage(
       tabItem(tabName = "smartphone_pricing",
               fluidRow(
                 box(
+                  width = 4,
                   title = "Smartphone Pricing Filters",
                   sliderInput("memoryInput", "Memory (GB):", min = 0, max = 256, value = c(0, 256)),
                   sliderInput("storageInput", "Storage (GB):", min = 0, max = 512, value = c(0, 512)),
                   actionButton("reset_smartphone", "Reset Filters")
                 ),
                 box(
+                  width = 8,
                   title = "Average Selling Price by Brand",
                   plotOutput("avgPricePlot")
                 )
@@ -177,6 +179,7 @@ ui <- dashboardPage(
       tabItem(tabName = "price_ratings",
               fluidRow(
                 box(
+                  width = 4,
                   title = "Filters",
                   selectizeInput("brandInput", "Select Brands:",
                                  choices = unique(smartphones$Brands), 
@@ -185,6 +188,7 @@ ui <- dashboardPage(
                   actionButton("reset_brand", "Reset Filters")
                 ),
                 box(
+                  width = 8,
                   title = "Selling Price vs User Ratings",
                   plotOutput("priceRatingPlot")
                 )
@@ -193,7 +197,7 @@ ui <- dashboardPage(
       
     )
   )
-
+  
 )
 
 # server
@@ -206,7 +210,7 @@ server <- function(input, output, session) {
   })
   
   
-
+  
   
   
   # reset page 1
@@ -281,8 +285,8 @@ server <- function(input, output, session) {
                                       "<br>Country: ", ifelse(is.na(country), "N/A", country),
                                       "<br>State: ", ifelse(is.na(state), "N/A", state),
                                       "<br>Main Commod: ", ifelse(is.na(commod1), "N/A", commod1),
-                      
-                        
+                                      
+                                      
                                       '<br><a href="https://www.google.com/maps?q=', latitude, ',', longitude, '" target="_blank">Open in Google Map</a>'
                        ))
   })
@@ -314,7 +318,7 @@ server <- function(input, output, session) {
     
     return(data)
   })
-
+  
   # group page 2
   grouped_data_plot <- reactive({
     
@@ -355,8 +359,8 @@ server <- function(input, output, session) {
     
     data <- data %>% filter(latitude >= input$latitude_plot_3[1],
                             latitude <= input$latitude_plot_3[2],
-                           longitude >= input$longitude_plot_3[1],
-                           longitude <= input$longitude_plot_3[2])
+                            longitude >= input$longitude_plot_3[1],
+                            longitude <= input$longitude_plot_3[2])
     
     return(data)
   })
