@@ -8,6 +8,9 @@ library(shinydashboard)
 
 # load data sets
 mineral <- read.csv("Mineral ores round the world.csv")
+smartphones <- read.csv("Sales.csv")  # Adjust the path accordingly
+
+
 
 
 # data set cleaning
@@ -20,6 +23,14 @@ mineral <- mineral |>
          longitude = as.numeric(longitude))
 
 
+smartphones <- smartphones %>%
+  mutate(Memory = as.numeric(gsub(" GB", "", Memory)),  # Assuming Memory is in the format "32 GB"
+         Storage = as.numeric(gsub(" GB", "", Storage)))  # Assuming Storage is in the format "128 GB"
+
+
+
+
+
 # ui
 ui <- dashboardPage(
   skin = "green",
@@ -29,7 +40,9 @@ ui <- dashboardPage(
       menuItem("Introduction", tabName = "intro", icon = icon("info-circle")),
       menuItem("Map", tabName = "map", icon = icon("map")),
       menuItem("US Mineral Site Num", tabName = "us_num", icon = icon("bar-chart")),
-      menuItem("Main Commod Site Num", tabName = "main_commod", icon = icon("bar-chart"))
+      menuItem("Main Commod Site Num", tabName = "main_commod", icon = icon("bar-chart")),
+      menuItem("Smartphone Pricing", tabName = "smartphone_pricing", icon = icon("mobile")),
+      menuItem("Price vs Ratings", tabName = "price_ratings", icon = icon("chart-line"))
     )
   ),
   dashboardBody(
@@ -146,6 +159,36 @@ ui <- dashboardPage(
                 )
               )
               
+      ),
+      tabItem(tabName = "smartphone_pricing",
+              fluidRow(
+                box(
+                  title = "Smartphone Pricing Filters",
+                  sliderInput("memoryInput", "Memory (GB):", min = 0, max = 256, value = c(0, 256)),
+                  sliderInput("storageInput", "Storage (GB):", min = 0, max = 512, value = c(0, 512)),
+                  actionButton("reset_smartphone", "Reset Filters")
+                ),
+                box(
+                  title = "Average Selling Price by Brand",
+                  plotOutput("avgPricePlot")
+                )
+              )
+      ),
+      tabItem(tabName = "price_ratings",
+              fluidRow(
+                box(
+                  title = "Filters",
+                  selectizeInput("brandInput", "Select Brands:",
+                                 choices = unique(smartphones$Brands), 
+                                 multiple = TRUE,
+                                 selected = unique(smartphones$Brands)),
+                  actionButton("reset_brand", "Reset Filters")
+                ),
+                box(
+                  title = "Selling Price vs User Ratings",
+                  plotOutput("priceRatingPlot")
+                )
+              )
       )
       
     )
@@ -342,6 +385,52 @@ server <- function(input, output, session) {
       layout(height = 2000)
     
     p
+  })
+  
+  
+  # Logic for smartphone pricing
+  observeEvent(input$reset_smartphone, {
+    updateSliderInput(session, "memoryInput", value = c(0, 256))
+    updateSliderInput(session, "storageInput", value = c(0, 512))
+  })
+  
+  filtered_smartphones <- reactive({
+    smartphones %>%
+      filter(Memory >= input$memoryInput[1], Memory <= input$memoryInput[2],
+             Storage >= input$storageInput[1], Storage <= input$storageInput[2])
+  })
+  
+  output$avgPricePlot <- renderPlot({
+    data <- filtered_smartphones() %>%
+      group_by(Brands) %>%
+      summarise(AveragePrice = mean(Selling_Price, na.rm = TRUE)) %>%
+      arrange(desc(AveragePrice))
+    
+    ggplot(data, aes(x = reorder(Brands, -AveragePrice), y = AveragePrice, fill = Brands)) +
+      geom_col(show.legend = FALSE) +
+      labs(x = "Brand", y = "Average Selling Price ($)", title = "Average Selling Price by Brand") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  })
+  
+  
+  # Logic for Price vs Ratings
+  observeEvent(input$reset_brand, {
+    updateSelectizeInput(session, "brandInput", choices = unique(smartphones$Brands), selected = unique(smartphones$Brands))
+  })
+  
+  filtered_ratings <- reactive({
+    smartphones %>%
+      filter(Brands %in% input$brandInput)
+  })
+  
+  output$priceRatingPlot <- renderPlot({
+    data <- filtered_ratings()
+    ggplot(data, aes(x = Rating, y = Selling_Price)) +
+      geom_point(aes(color = Brands), alpha = 0.6) +
+      labs(x = "User Ratings", y = "Selling Price ($)", title = "Selling Price vs User Ratings") +
+      theme_minimal() +
+      scale_color_discrete(name = "Brand")
   })
   
 }
