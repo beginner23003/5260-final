@@ -5,6 +5,8 @@ library(plotly)
 library(DT)
 library(tidyr)
 library(shinydashboard)
+library(threejs)
+
 
 # load data sets
 mineral <- read.csv("Mineral ores round the world.csv")
@@ -198,11 +200,11 @@ ui <- dashboardPage(
       
       tabItem(tabName = "ewaste", 
               fluidRow(
-                box(
-                  
-                ),
-                box(
-                  
+                box(title = "Another Box", width = 4,
+                    "Content goes here..."
+                ), 
+                box(title = "Globe", width = 8,
+                    leafletOutput("ewaste_map")
                 )
               )
       )
@@ -447,6 +449,14 @@ server <- function(input, output, session) {
       labs(x = "User Ratings", y = "Selling Price ($)", title = "Selling Price vs User Ratings") +
       theme_minimal() +
       scale_color_discrete(name = "Brand")
+  })
+  
+  
+  # creating output for ewaste page 
+  output$ewaste_map <- renderLeaflet({
+    leaflet() %>%
+      addTiles() %>%
+      setView(lng = 0, lat = 0, zoom = 2)
   })
   
 }
