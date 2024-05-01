@@ -463,10 +463,12 @@ server <- function(input, output, session) {
                        radius = 3, clusterOptions = markerClusterOptions(),
                        popup = ~paste(
                                       "<br>Country: ", ifelse(is.na(COUNTRY), "N/A", COUNTRY),
-                                      "<br>Ewaste Generated: ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
-                                      '<br><a href="https://www.google.com/maps?q=', Latitude, ',', Longitude, '" target="_blank">Open in Google Map</a>'
+                                      "<br>Ewaste Generated (million KG): ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
+                                      '<br><a href="https://www.google.com/maps?q=', Latitude, ',', 
+                                      Longitude, '" target="_blank">Open in Google Map</a>'
                        ))
   })
+  
   
 }
 
