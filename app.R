@@ -42,7 +42,8 @@ ui <- dashboardPage(
       menuItem("US Mineral Site Num", tabName = "us_num", icon = icon("bar-chart")),
       menuItem("Main Commod Site Num", tabName = "main_commod", icon = icon("bar-chart")),
       menuItem("Smartphone Pricing", tabName = "smartphone_pricing", icon = icon("mobile")),
-      menuItem("Price vs Ratings", tabName = "price_ratings", icon = icon("chart-line"))
+      menuItem("Price vs Ratings", tabName = "price_ratings", icon = icon("chart-line")), 
+      menuItem('Global EWaste', tabName = 'ewaste', icon=icon('globe'))
     )
   ),
   dashboardBody(
@@ -191,6 +192,17 @@ ui <- dashboardPage(
                   width = 8,
                   title = "Selling Price vs User Ratings",
                   plotOutput("priceRatingPlot")
+                )
+              )
+      ), 
+      
+      tabItem(tabName = "ewaste", 
+              fluidRow(
+                box(
+                  
+                ),
+                box(
+                  
                 )
               )
       )
