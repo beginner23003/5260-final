@@ -6,12 +6,22 @@ library(DT)
 library(tidyr)
 library(shinydashboard)
 
+# Caitlin attempt
+library(sf)
+library(rworldmap)
+
+data(countriesLow)
+world_map_poly <- st_as_sf(countriesLow)
+
 
 # load data sets
 mineral <- read.csv("Mineral ores round the world.csv")
 smartphones <- read.csv("Sales.csv")  # Adjust the path accordingly
 #setwd('D:/Caitlin/School/JupyterNotebooks/5260-final')
 ewaste <- read.csv('ewaste cleaned.csv')
+ewaste <-  world_map_poly %>%
+  left_join(ewaste, by = c("NAME" = "COUNTRY"))
+pal <- colorNumeric(palette = "viridis", domain = world_map_poly$ewaste_gen_total, na.color = "#808080")
 
 
 # data set cleaning
@@ -202,10 +212,18 @@ ui <- dashboardPage(
       
       tabItem(tabName = "ewaste", 
               fluidRow(
-                box(title = "Another Box", width = 4,
-                    "Content goes here..."
+                box(title = "Filter Information", width = 4
+                    #,
+                    #sliderInput("EWaste Range",
+                    #            "E-Waste Generated:",
+                    #            min = min(ewaste$ewaste_gen_total, na.rm = TRUE),
+                    #            max = max(ewaste$ewaste_gen_total, na.rm = TRUE),
+                    #            value = c(min(ewaste$ewaste_gen_total, na.rm = TRUE), 
+                    #                     max(ewaste$ewaste_gen_total, na.rm = TRUE)),
+                    #            step = 10)  
+                  
                 ), 
-                box(title = "Globe", width = 8,
+                box(title = "EWaste Produced Globally", width = 8,
                     leafletOutput("ewaste_map")
                 )
               )
@@ -455,18 +473,39 @@ server <- function(input, output, session) {
   
   
   # creating output for ewaste page 
+  # attempt 1 
+  #output$ewaste_map <- renderLeaflet({
+  #  leaflet(data = ewaste) %>%
+  #    addTiles() %>%
+  #    addCircleMarkers(data = ewaste,
+  #                     lat = ~Latitude, lng = ~Longitude,
+  #                     radius = 3, clusterOptions = markerClusterOptions(),
+  #                     popup = ~paste(
+  #                                    "<br>Country: ", ifelse(is.na(COUNTRY), "N/A", COUNTRY),
+  #                                    "<br>Ewaste Generated (million KG): ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
+  #                                    '<br><a href="https://www.google.com/maps?q=', Latitude, ',', 
+  #                                    Longitude, '" target="_blank">Open in Google Map</a>'
+  #                     ))
+  #})
+  
   output$ewaste_map <- renderLeaflet({
-    leaflet(data = ewaste) %>%
-      addTiles() %>%
-      addCircleMarkers(data = ewaste,
-                       lat = ~Latitude, lng = ~Longitude,
-                       radius = 3, clusterOptions = markerClusterOptions(),
-                       popup = ~paste(
-                                      "<br>Country: ", ifelse(is.na(COUNTRY), "N/A", COUNTRY),
-                                      "<br>Ewaste Generated (million KG): ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
-                                      '<br><a href="https://www.google.com/maps?q=', Latitude, ',', 
-                                      Longitude, '" target="_blank">Open in Google Map</a>'
-                       ))
+    # Filter data based on the slider input
+    #filtered_data <- ewaste %>%
+    #  filter(ewaste_gen_total >= input$ewasteRange[1] & ewaste_gen_total <= input$ewasteRange[2])
+    
+    
+    leaflet(data = filtered_data) %>%
+      addProviderTiles(providers$CartoDB.Positron) %>%
+      addPolygons(
+        fillColor = ~pal(ewaste_gen_total),
+        weight = 2,
+        opacity = 1,
+        color = "white",
+        dashArray = "3",
+        fillOpacity = 0.7,
+        popup = ~paste(NAME, "<br>", "E-Waste Generated: ", ewaste_gen_total)
+      ) %>%
+      addLegend(pal = pal, values = ~ewaste_gen_total, opacity = 0.7, title = "E-Waste Generated")
   })
   
   
