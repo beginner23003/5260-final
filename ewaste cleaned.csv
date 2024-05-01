@@ -1,270 +1,268 @@
 ﻿COUNTRY,REGION,E-WASTE GENERATED (MILLION KG),E-WASTE GENERATED (KG/CAPITA),E-WASTE DOCUMENTED AS FORMALLY COLLECTED AND RECYCLED (MILLION KG),"REFERENCE FOR
 E-WASTE COLLECTION AND RECYCLING DATA","NATIONAL E-WASTE
 LEGISLATION/ POLICY OR REGULATION
-IN PLACE",EPRFOR E-WASTE,COLLECTION TARGET IN PLACE,RECYCLING TARGETS IN PLACE
-Afghanistan,Asia,32,"0,8",N/A,,No,No,No,No
-Albania,Europe,24,"8,3",N/A,,Yes,Yes,No,No
-Algeria,Africa,333,"7,5",N/A,,No,No,No,No
-Angola,Africa,148,"4,2",N/A,,No,No,No,No
-Antigua and Barbuda,Americas,1,"13,3",N/A,,No,No,No,No
+IN PLACE",EPRFOR E-WASTE,COLLECTION TARGET IN PLACE,RECYCLING TARGETS IN PLACE,Longitude,Latitude
+Afghanistan,Asia,32,"0,8",N/A,,No,No,No,No,66.59216131095278,34.13402601376932
+Albania,Europe,24,"8,3",N/A,,Yes,Yes,No,No,20.061082767269493,41.14165894891656
+Algeria,Africa,333,"7,5",N/A,,No,No,No,No,2.6558464719769135,28.350969744889056
+Angola,Africa,148,"4,2",N/A,,No,No,No,No,17.65176878,-12.16742406
+Antigua and Barbuda,Americas,1,"13,3",N/A,,No,No,No,No,-61.78530823,17.07146759372967
 Argentina,Americas,517,"11,4","14,4","Communication with Ministry of Environment and Sustainable Development  in the context of this report: M. Wagner, C.P. Balde,
-V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www. scycle.info/regional-e-waste-monitor-latin-america-2021/",Yes,Yes,No,No
-Armenia,Asia,22,"7,8",N/A*,"Questionnaires conducted by UNSD, OECD and UNECE in 2014/2015. Data point is added to the global totals, but  data is not published.",No,No,No,No
-Aruba,Americas,2,"20,7",N/A,,No,No,No,No
-Australia,Oceania,583,"22,4","292,4","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,Yes,Yes
+V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www. scycle.info/regional-e-waste-monitor-latin-america-2021/",Yes,Yes,No,No,-64.53238504,-35.69727052
+Armenia,Asia,22,"7,8",N/A*,"Questionnaires conducted by UNSD, OECD and UNECE in 2014/2015. Data point is added to the global totals, but  data is not published.",No,No,No,No,45.05490831965259,40.17841274230679
+Aruba,Americas,2,"20,7",N/A,,No,No,No,No,-69.97564014,12.515625722992898
+Australia,Oceania,583,"22,4","292,4","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,Yes,Yes,134.02277170916162,-25.69733767
 Austria,Europe,175,"19,6","133,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
+default/table?lang=en",Yes,Yes,Yes,Yes,13.797778364631036,47.631858269895794
 Azerbaijan,Asia,90,"8,7","0,01","Communication  with JSC ""Tamiz Schahar"" in the context of this report: C.P. Balde, G. lattoni, V. Luda, I.C Nnorom, 0. Pecheniuk,
 R. Kuehr, Regional E-waste Monitor for the CIS + Georgia -  2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the SCYCLE Programme, Bonn, Germany.
 https://ewastemonitor.info/wp-content/uploads/2021/11/
-REM_202l_CISGEORGIA_WEB_final_nov_ll_spreads.pdf",No,No,No,No
-Bahamas,Americas,7,"17,7",N/A,,No,No,No,No
-Bahrain,Asia,26,"17,8",N/A,,Yes,No,No,No
-Bangladesh,Asia,367,"2,2",N/A,,Yes,Yes,Yes,No
-Barbados,Americas,4,"14,7",N/A,,No,No,No,No
+REM_202l_CISGEORGIA_WEB_final_nov_ll_spreads.pdf",No,No,No,No,48.634592670644324,40.39205099
+Bahamas,Americas,7,"17,7",N/A,,No,No,No,No,-78.0727537,24.72162633646784
+Bahrain,Asia,26,"17,8",N/A,,Yes,No,No,No,50.540695402276775,26.04798501537066
+Bangladesh,Asia,367,"2,2",N/A,,Yes,Yes,Yes,No,90.43212562608613,23.67372867
+Barbados,Americas,4,"14,7",N/A,,No,No,No,No,-59.55738395,13.183219369337529
 Belarus,Europe,111,"11,6",31,"Communication with Ministry of Housing and Utilities in the context of this report C.P. Balde, G. lattoni, V. Luda, I.C Nnorom,
-0. Pecheniuk, R. Kuehr, Regional E-waste Monitor for the CIS + Georgia -  2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the SCYCLE Programme, Bonn, Germany. https://ewastemonitor. info/wp-content/uploads/2021/ll/REM_202l_CISGEORGIA_WEB_ final_nov _ll_spreads.pdf",Yes,Yes,No,No
-Belgium,Europe,252,"21,7","162,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser /view/env_waseleeos/defauIt/ table?lang=en",Yes,Yes,Yes,Yes
-Belize,Americas,3,"7,1",N/A,,No,No,No,No
-Benin,Africa,14,"1,1",N/A,,No,No,No,No
-Bhutan,Asia,5,"6,7","0,5","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",No,No,No,No
-Bolivia (Plurinational State of),Americas,89,"7,3","2,4","Communication with  Ministry of Environment and Water of the Plurinational State of Bolivia in the context of this report:
+0. Pecheniuk, R. Kuehr, Regional E-waste Monitor for the CIS + Georgia -  2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the SCYCLE Programme, Bonn, Germany. https://ewastemonitor. info/wp-content/uploads/2021/ll/REM_202l_CISGEORGIA_WEB_ final_nov _ll_spreads.pdf",Yes,Yes,No,No,27.964252054715104,53.46791374543163
+Belgium,Europe,252,"21,7","162,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser /view/env_waseleeos/defauIt/ table?lang=en",Yes,Yes,Yes,Yes,4.675010154696485,50.61821389
+Belize,Americas,3,"7,1",N/A,,No,No,No,No,-88.6827351,17.24252476647155
+Benin,Africa,14,"1,1",N/A,,No,No,No,No,2.305714528830206,9.503013199615893
+Bhutan,Asia,5,"6,7","0,5","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",No,No,No,No,90.46716647173861,27.42163933959824
+Bolivia,Americas,89,"7,3","2,4","Communication with  Ministry of Environment and Water of the Plurinational State of Bolivia in the context of this report:
 M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the  13 countries participating in project UNIDO-GEF 5554, Bonn
-(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",Yes,Yes,No,No
+(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",Yes,Yes,No,No,-64.45209598,-16.73124884
 Bosnia and Herzegovina,Europe,33,"10,1","4,9","Communication with BHAS 2022/Zeos/Kim/Tec 2022 in the context of this report: G. lattoni, I.C Nnorom, D. Toppenberg,
 R. Kuehr, C.P. Balde. Regional E-waste Monitor for the Western Balkans -  2023. International Telecommunication Union
 (ITU), United Nations Environment Programme (UNEP) and United Nations Institute for Training and Research (UNITAR)
--  SCYCLE Programme. https://www.scycle.info/wp-content/ uploads/2023/12/Regional-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,Yes
-Botswana,Africa,23,"8,7",N/A,,No,No,No,No
+-  SCYCLE Programme. https://www.scycle.info/wp-content/ uploads/2023/12/Regional-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,Yes,17.83467240787538,44.14415356126429
+Botswana,Africa,23,"8,7",N/A,,No,No,No,No,23.85779956995608,-22.236609
 Brazil,Americas,2443,"11,4",79,"P. Dias, J. Palomero, M.Pilotto Cenci, T. Scarazzato, A. Moura Bernardes. Electronic waste in Brazil: Generation, collection, recy- cling and the covid pandemic,
-Cleaner Waste Systems. Volume 3, 2022, ISSN 2772-9125, https:// doi.org/10.1016/j.clwas.2022.100022. (https://www.sciencedirect. com/science/article/pii/S2772912522000227)",Yes,Yes,Yes,No
-Brunei Darussalam,Asia,9,"19,9",N/A,,No,No,No,No
-Bulgaria,Europe,90,"13,2","75,5","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Burkina Faso,Africa,17,"0,8",N/A,,No,No,No,No
-Burundi,Africa,8,"0,6",N/A,,No,No,No,No
-Cambodia,Asia,25,"1,5",N/A,,Yes,No,No,No
+Cleaner Waste Systems. Volume 3, 2022, ISSN 2772-9125, https:// doi.org/10.1016/j.clwas.2022.100022. (https://www.sciencedirect. com/science/article/pii/S2772912522000227)",Yes,Yes,Yes,No,-54.35520661,-11.52463042
+Brunei Darussalam,Asia,9,"19,9",N/A,,No,No,No,No,114.6430958360464,4.543205889917609
+Bulgaria,Europe,90,"13,2","75,5","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,25.251739122561908,42.82043677302438
+Burkina Faso,Africa,17,"0,8",N/A,,No,No,No,No,-1.693281621,12.108709036312737
+Burundi,Africa,8,"0,6",N/A,,No,No,No,No,29.88518227845293,-3.261251993
+Cambodia,Asia,25,"1,5",N/A,,Yes,No,No,No,105.03973078680701,12.699186865507775
 Cameroon,Africa,33,"1,2","0,1","Communication with Solidarite Technologique in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United
-Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union  (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam. https://www.scycle.info/global-e-waste-mo- nitor-2020/",Yes,Yes,No,No
-Canada,Americas,774,"20,2",98,"OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No
-Cape Verde,Africa,3,"5,3",N/A,,No,No,No,No
-Central African Republic,Africa,3,"0,6",N/A,,No,No,No,No
-Chad,Africa,12,"0,7",N/A,,No,No,No,No
+Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union  (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam. https://www.scycle.info/global-e-waste-mo- nitor-2020/",Yes,Yes,No,No,12.948474142398263,6.294168487480992
+Canada,Americas,774,"20,2",98,"OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No,-98.41680518,57.550480044655636
+Cape Verde,Africa,3,"5,3",N/A,,No,No,No,No,-23.63401006,15.076411518651643
+Central African Republic,Africa,3,"0,6",N/A,,No,No,No,No,20.520743419397256,6.331390033944319
+Chad,Africa,12,"0,7",N/A,,No,No,No,No,18.427113900363025,15.283493546654503
 Chile,Americas,230,"11,7","7,3","Communication with Ministry of Environment of Chile in the context of this report M. Wagner, C.P. Balde, V. Luda, I. C Nnorom,
-R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regio- nal-e-waste-monitor-latin-america-2021/",Yes,Yes,No,No
+R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regio- nal-e-waste-monitor-latin-america-2021/",Yes,Yes,No,No,-70.76863432,-37.82938283
 China,Asia,12066,"8,5","1951,7","Communication with Ministry of Environment in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & Inter-
 national Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam.
-https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,Yes
+https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,Yes,104.69113855849604,38.07325481105728
 "China, Hong Kong Special Adminis- trative Region",Asia,161,"21,6","71,6","Communication  with Hong Kong  Environmental Protection Department in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/ United Nations Institute for Training and Research (UNITAR) -
 co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam.
-https://www.scycle.info/global-e-waste-monitor-2020/",No,No,No,No
-"China, Macao Special Adminis- trative Region",Asia,13,"18,5",N/A,,No,No,No,No
-Colombia,Americas,388,"7,5","4,9","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No
-Comoros,Africa,1,"1,5",N/A,,No,No,No,No
-Congo,Africa,16,"2,7",N/A,,No,No,No,No
-Costa Rica,Americas,66,"12,7","5,8","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No
+https://www.scycle.info/global-e-waste-monitor-2020/",No,No,No,No,#N/A,#N/A
+"China, Macao Special Adminis- trative Region",Asia,13,"18,5",N/A,,No,No,No,No,#N/A,#N/A
+Colombia,Americas,388,"7,5","4,9","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No,-72.64450662,4.187753877352739
+Comoros,Africa,1,"1,5",N/A,,No,No,No,No,43.34826587429403,-11.65886147
+Congo,Africa,16,"2,7",N/A,,No,No,No,No,14.879732849491393,-0.72943916
+Costa Rica,Americas,66,"12,7","5,8","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No,-84.14673626,9.863467407406214
 Croatia,Europe,54,"13,3","35,3","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
-https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Cyprus,Asia,16,13,"3,5","C.P. Balde, G. lattoni, C. Xu, T. Yamamoto, Update of WEEE Collection Rates, Targets, Flows, and Hoarding -  2021 in the EU-27, United Kingdom, Norway, Switzerland, and Iceland, 2022, SCYCLE Programme, United Nations Institute for Training and Research (UNITAR), Bonn, Germany. https://www.scycle.info/new-study-up- date-of-weee-collection-rates-targets-flows-and-hoarding/ Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes
+https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,16.625761129583374,44.91192100856702
+Cyprus,Asia,16,13,"3,5","C.P. Balde, G. lattoni, C. Xu, T. Yamamoto, Update of WEEE Collection Rates, Targets, Flows, and Hoarding -  2021 in the EU-27, United Kingdom, Norway, Switzerland, and Iceland, 2022, SCYCLE Programme, United Nations Institute for Training and Research (UNITAR), Bonn, Germany. https://www.scycle.info/new-study-up- date-of-weee-collection-rates-targets-flows-and-hoarding/ Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes,33.375346009199205,35.11700416345239
 Czech Republic,Europe,173,"16,5","118,9","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Cote d'Ivoire,Africa,42,"1,5",N/A,,Yes,Yes,No,No
-Democratic Republic of the Congo,Africa,56,"0,6",N/A,,No,No,No,No
-Denmark,Europe,131,"22,3",79,"Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Djibouti,Africa,2,1.7,N/A,,No,No,No,No
-Dominica,Americas,1,"8,9",N/A,,No,No,No,No
-Dominican Republic,Americas,99,"8,8",N/A,,Yes,Yes,No,No
+default/table?lang=en",Yes,Yes,Yes,Yes,15.383273292023533,49.74917370930982
+Cote d'Ivoire,Africa,42,"1,5",N/A,,Yes,Yes,No,No,#N/A,#N/A
+Democratic Republic of the Congo,Africa,56,"0,6",N/A,,No,No,No,No,23.419827574282188,-3.338629596
+Denmark,Europe,131,"22,3",79,"Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,9.378670542409406,56.00118817971057
+Djibouti,Africa,2,1.7,N/A,,No,No,No,No,42.613496898789506,11.750235727618804
+Dominica,Americas,1,"8,9",N/A,,No,No,No,No,-61.36047195,15.429269860940513
+Dominican Republic,Americas,99,"8,8",N/A,,Yes,Yes,No,No,-70.43495199,18.77954818522993
 Ecuador,Americas,108,6,"3,3","Communication  with Ecuadorian Ministry of Environment, Water and Ecological Transition (MAATE) in the  context of this report:
 M. Wagner, C.P. Balde, V. Lucia, I. C Nnorom, R. Kuehr, G. lattoni.
 Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn
 (Germany), 2022. https://www.scycle.info/regional-e-waste-moni-
-tor-latin-america-2021/",Yes,Yes,Yes,No
-Egypt,Africa,692,"6,3",N/A,,Yes,Yes,No,No
+tor-latin-america-2021/",Yes,Yes,Yes,No,-78.46303261,-1.564272139
+Egypt,Africa,692,"6,3",N/A,,Yes,Yes,No,No,30.240135435012338,26.60517034450628
 El Salvador,Americas,41,6.4,"0,5","Communication  with Ministry of Environment and Natural Resources  from El Salvador in the  context of this report: M. Wagner, C.P. Balde, V. Lucia, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn
-(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No
-Equatorial Guinea,Africa,18,"10,6",N/A,,No,No,No,No
-Eritrea,Africa,3,0.7,N/A,,No,No,No,No
+(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No,-88.85911489,13.758041517055418
+Equatorial Guinea,Africa,18,"10,6",N/A,,No,No,No,No,10.425456672353823,1.5954643936590733
+Eritrea,Africa,3,0.7,N/A,,No,No,No,No,39.26724014,15.005533147667684
 Estonia,Europe,19,"14,2",12.4,"Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Ethiopia,Africa,88,0.7,N/A,,No,No,No,No
-Fiji,Oceania,7,"7,2",N/A,,No,No,No,No
-Finland,Europe,118,"21,3","89,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
+default/table?lang=en",Yes,Yes,Yes,Yes,25.916870250633806,58.648108311231034
+Ethiopia,Africa,88,0.7,N/A,,No,No,No,No,39.914902886544276,8.729389557048396
+Fiji,Oceania,7,"7,2",N/A,,No,No,No,No,177.98144613732626,-17.82247095
+Finland,Europe,118,"21,3","89,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,25.65738433454702,65.01578959749911
 France,Europe,1445,"22,4","860,7","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Gabon,Africa,21,"8,7",N/A,,No,No,No,No
-Gambia,Africa,4,"1,4",N/A,,No,No,No,No
-Georgia,Asia,34,"8,9",N/A,,Yes,Yes,Yes,No
+default/table?lang=en",Yes,Yes,Yes,Yes,2.1940236627886227,46.64236822
+Gabon,Africa,21,"8,7",N/A,,No,No,No,No,11.839410898545754,-0.62844846
+Gambia,Africa,4,"1,4",N/A,,No,No,No,No,-15.38338039,13.428617959189328
+Georgia,Asia,34,"8,9",N/A,,Yes,Yes,Yes,No,43.378866534112234,42.17986277737226
 Germany,Europe,1767,"21,2","956,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
-https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Ghana,Africa,72,"2,2",N/A,,Yes,Yes,No,No
+https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,10.426171427430804,51.08304539800482
+Ghana,Africa,72,"2,2",N/A,,Yes,Yes,No,No,-1.219233363,7.945304672
 Greece,Europe,194,"18,6","58,6","C.P. Balde, G. lattoni, C. Xu, T. Yamamoto, Update of WEEE Collection Rates, Targets, Flows, and Hoarding -  2021 in the EU-27, United Kingdom, Norway, Switzerland, and Iceland, 2022, SCYCLE Programme, United Nations Institute for Training and Research (UNITAR), Bonn, Germany. https://www.scycle.info/new-study-up- date-of-weee-collection-rates-targets-flows-and-hoarding/ Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data-
-browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes
-Grenada,Americas,1,"10,4",N/A,,No,No,No,No
-Guatemala,Americas,92,"5,2","1,1","Communication  with Ministry of Environment and Natural Resources in the  context of this report: M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/ regional-e-waste-monitor-latin-america-2021/",No,No,No,No
-Guinea,Africa,14,1,N/A,,No,No,No,No
-Guinea- Bissau,Africa,1,"0,6",N/A,,No,No,No,No
-Guyana,Americas,7,"8,1",N/A,,No,No,No,No
-Haiti,Americas,12,"1,1",N/A,,No,No,No,No
-Honduras,Americas,36,"3,5","0,1","Communication with Secretariat of Natural Resources and Environment in the context of this report: M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/ regional-e-waste-monitor-latin-america-2021/",No,No,No,No
+browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes,23.110368936161876,39.42012261727978
+Grenada,Americas,1,"10,4",N/A,,No,No,No,No,-61.67937937,12.112926656338907
+Guatemala,Americas,92,"5,2","1,1","Communication  with Ministry of Environment and Natural Resources in the  context of this report: M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for  the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/ regional-e-waste-monitor-latin-america-2021/",No,No,No,No,-90.31219349,15.820878515352684
+Guinea,Africa,14,1,N/A,,No,No,No,No,-10.98694885,10.255986541378112
+Guinea- Bissau,Africa,1,"0,6",N/A,,No,No,No,No,-14.98018676,11.980075324820504
+Guyana,Americas,7,"8,1",N/A,,No,No,No,No,-58.91352613,4.682119814
+Haiti,Americas,12,"1,1",N/A,,No,No,No,No,-72.8929138,18.883520486983567
+Honduras,Americas,36,"3,5","0,1","Communication with Secretariat of Natural Resources and Environment in the context of this report: M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/ regional-e-waste-monitor-latin-america-2021/",No,No,No,No,-86.49251679,14.740370695750006
 Hungary,Europe,138,"14,3","90,4","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Iceland,Europe,8,"22,4","4,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-India,Asia,4137,"2,9","59,6","Communication with Assocham India in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,Yes,No
-Indonesia,Asia,1886,"6,9",N/A,,No,No,No,No
-Iran (Islamic Republic of),Asia,817,"9,3",N/A,,Yes,No,No,No
-Iraq,Asia,267,"6,1",N/A,,No,No,No,No
+default/table?lang=en",Yes,Yes,Yes,Yes,19.39620048366142,47.22527332486294
+Iceland,Europe,8,"22,4","4,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,-19.05682967,65.12360920205514
+India,Asia,4137,"2,9","59,6","Communication with Assocham India in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,Yes,No,81.17300408530181,23.586300567746722
+Indonesia,Asia,1886,"6,9",N/A,,No,No,No,No,113.96538246847302,0.15591979959037652
+Iran,Asia,817,"9,3",N/A,,Yes,No,No,No,54.237077001065444,32.906023742890056
+Iraq,Asia,267,"6,1",N/A,,No,No,No,No,43.832529181056884,33.105075667527906
 Ireland,Europe,103,"20,6","67,4","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
+default/table?lang=en",Yes,Yes,Yes,Yes,-8.241128546,53.30489539816495
 Israel,Asia,148,"16,5","72,4","OECD Statistics, 2022. Waste from electrical and electronic
-equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,Yes,No,No
-Italy,Europe,1124,19,"461,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
+equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,Yes,No,No,35.027923472437024,31.513542220043195
+Italy,Europe,1124,19,"461,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,12.763657166123137,42.98201127614267
 Jamaica,Americas,21,"7,4","0,1","Communication with National Solid Waste Management Authority in the context of this report Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/ United Nations Institute for Training and Research (UNITAR) -
 co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam. https://www.scycle.info/global-e-waste-mo-
-nitor-2020/",No,No,No,No
-Japan,Asia,2638,"21,2","613,4","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,No,No,Yes
+nitor-2020/",No,No,No,No,-77.30358895,18.12207889341651
+Japan,Asia,2638,"21,2","613,4","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,No,No,Yes,137.46934234351835,36.76738832597829
 Jordan,Asia,69,"6,1","1,6","Communication with National Statistics Office in the context of this report Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & Inter-
-national Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,No,No,No
-Kazakhstan,Asia,196,"10,2","12,4",UNSD Questionnaire (UNSD 2019).,Yes,Yes,Yes,No
-Kenya,Africa,88,"1,6",N/A,,No,No,No,No
-Kiribati,Oceania,0,"1,3",N/A,,No,No,No,No
-Kuwait,Asia,71,"16,7",N/A,,No,No,No,No
-Kyrgyzstan,Asia,14,"2,2",N/A,,No,No,No,No
-"Lao People's
-Democratic Republic",Asia,27,"3,6",N/A,,No,No,No,No
-Latvia,Europe,22,"11,9","11,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes
-Lebanon,Asia,60,"10,7","0,1","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",No,No,No,No
-Lesotho,Africa,3,"1,3",N/A,,No,No,No,No
-Liberia,Africa,3,"0,6",N/A,,No,No,No,No
-Libya,Africa,94,"13,8",N/A,,No,No,No,No
-Lithuania,Europe,37,"13,4","16,7","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
+national Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,No,No,No,36.95728884547246,31.387064884449156
+Kazakhstan,Asia,196,"10,2","12,4",UNSD Questionnaire (UNSD 2019).,Yes,Yes,Yes,No,66.37591935,47.641465195176835
+Kenya,Africa,88,"1,6",N/A,,No,No,No,No,37.95309411262371,0.6899182318376179
+Kiribati,Oceania,0,"1,3",N/A,,No,No,No,No,-157.3902419,1.8676673749241066
+Kuwait,Asia,71,"16,7",N/A,,No,No,No,No,47.56311109320184,29.281360965443092
+Kyrgyzstan,Asia,14,"2,2",N/A,,No,No,No,No,74.17532903468319,41.35698905438358
+Laos,Asia,27,"3,6",N/A,,No,No,No,No,103.76375899026448,18.117282736873282
+Latvia,Europe,22,"11,9","11,6","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser/view/env_waseleeos/default/table?lang=en",Yes,Yes,Yes,Yes,24.693671325654403,56.813853047554154
+Lebanon,Asia,60,"10,7","0,1","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",No,No,No,No,35.89651946324749,33.91160170722086
+Lesotho,Africa,3,"1,3",N/A,,No,No,No,No,28.24475317864227,-29.60168117
+Liberia,Africa,3,"0,6",N/A,,No,No,No,No,-9.258988935,6.520129794
+Libya,Africa,94,"13,8",N/A,,No,No,No,No,17.91133392454237,27.202915771690794
+Lithuania,Europe,37,"13,4","16,7","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,23.946021605013534,55.29437393417175
 Luxembourg,Europe,13,"20,9","6,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
-https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Madagascar,Africa,19,"0,6",N/A,,Yes,No,No,No
-Malawi,Africa,11,"0,5",N/A,,No,No,No,No
-Malaysia,Asia,411,"12,2",N/A,,Yes,No,No,No
-Maldives,Asia,5,10,N/A,,No,No,No,No
-Mali,Africa,20,"0,9",N/A,,No,No,No,No
+https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,6.103230338458876,49.77523454542369
+Madagascar,Africa,19,"0,6",N/A,,Yes,No,No,No,46.68493466832544,-19.04163612
+Malawi,Africa,11,"0,5",N/A,,No,No,No,No,34.23441182298881,-13.12898646
+Malaysia,Asia,411,"12,2",N/A,,Yes,No,No,No,114.63330303992869,3.6716608556387857
+Maldives,Asia,5,10,N/A,,No,No,No,No,73.10076245140479,-0.606557717
+Mali,Africa,20,"0,9",N/A,,No,No,No,No,-4.346399842,17.168146208584837
 Malta,Europe,8,"14,1","3,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Marshall Islands,Oceania,0,3,N/A,,No,No,No,No
-Mauritania,Africa,12,"2,7",N/A,,No,No,No,No
-Mauritius,Africa,16,"12,1","0,1","Business Mauritius, UNDP Mauritius (2021). Circular Economy: Optimising private sector investment in Mauritius. https://www. undp.org/sites/g/files/zskgke326/files/migration/mu/Circular-Eco- nomy--Optimising-private-sector-investment-in-Mauritius.pdf",No,No,No,No
-Mexico,Americas,1499,"11,8","52,6","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No
-Micronesia (Federated States of),Oceania,0,"1,9",N/A,,No,No,No,No
-Mongolia,Asia,20,"5,9",N/A,,No,No,No,No
+default/table?lang=en",Yes,Yes,Yes,Yes,14.441922442508494,35.890522650899314
+Marshall Islands,Oceania,0,3,N/A,,No,No,No,No,168.72016025351076,7.307929900994344
+Mauritania,Africa,12,"2,7",N/A,,No,No,No,No,-10.49507905,20.466731212820022
+Mauritius,Africa,16,"12,1","0,1","Business Mauritius, UNDP Mauritius (2021). Circular Economy: Optimising private sector investment in Mauritius. https://www. undp.org/sites/g/files/zskgke326/files/migration/mu/Circular-Eco- nomy--Optimising-private-sector-investment-in-Mauritius.pdf",No,No,No,No,57.56415671066546,-20.28142317
+Mexico,Americas,1499,"11,8","52,6","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No,-101.5539973,23.87436068093592
+Micronesia,Oceania,0,"1,9",N/A,,No,No,No,No,158.2291899444527,6.8789448129255435
+Mongolia,Asia,20,"5,9",N/A,,No,No,No,No,103.3987360327455,47.08644454604851
 Montenegro,Europe,8,13,"0,2","Communication with Western Balkans NGO in the context of this report: G. lattoni, I.C Nnorom, D. Toppenberg, R. Kuehr, C.P. Balde. Regional E-waste Monitor for the Western Balkans -  2023. lnterna- tional Telecommunication Union (ITU), United Nations Environment Programme (UNEP) and United Nations Institute for Training and Research (UNITAR) -  SCYCLE Programme. https://www.scycle.info/wp-content/uploads/2023/12/Regio-
-nal-E-waste-Monitor-Balkan-2023.pdf",Yes,No,No,No
-Morocco,Africa,177,"4,8",N/A,,No,No,No,No
-Mozambique,Africa,20,"0,6",N/A,,No,No,No,No
-Myanmar,Asia,76,"1,4",N/A,,No,No,No,No
+nal-E-waste-Monitor-Balkan-2023.pdf",Yes,No,No,No,19.29505087156758,42.73694835210454
+Morocco,Africa,177,"4,8",N/A,,No,No,No,No,-8.817212587,28.687598134979325
+Mozambique,Africa,20,"0,6",N/A,,No,No,No,No,35.208577031290176,-17.52523031
+Myanmar,Asia,76,"1,4",N/A,,No,No,No,No,97.08892285397344,19.901227931399873
 Namibia,Africa,17,"6,8","0,03","Communication with Namigreen in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor
-2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",No,No,No,No
-Nauru,Oceania,0,"6,3",N/A,,No,No,No,No
-Nepal,Asia,42,"1,4",N/A,,No,No,No,No
-Netherlands,Europe,387,"22,1","228,5","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-New Zealand,Oceania,101,"19,6",N/A,,No,No,No,No
+2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",No,No,No,No,18.16451345845268,-21.90858163
+Nauru,Oceania,0,"6,3",N/A,,No,No,No,No,166.92937633139178,-0.522102144
+Nepal,Asia,42,"1,4",N/A,,No,No,No,No,84.13388983,28.300920699755657
+Netherlands,Europe,387,"22,1","228,5","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,5.554136426128487,52.134054128923886
+New Zealand,Oceania,101,"19,6",N/A,,No,No,No,No,170.69035541428696,-43.82765433
 Nicaragua,Americas,21,3,"0,1","Communication with Ministry of Environment in the context of this report: M. Wagner, C.P. Balde, V. Lucia, I. C Nnorom, R. Kuehr,
-G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No
-Niger,Africa,14,"0,5",N/A,,No,No,No,No
-Nigeria,Africa,497,"2,3",N/A,,Yes,Yes,Yes,No
-Norway,Europe,145,"26,8","107,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Oman,Asia,71,"15,7",N/A,,No,No,No,No
-Pakistan,Asia,559,"2,4",N/A,,No,No,No,No
-Palau,Oceania,0,"12,2",N/A,,No,No,No,No
+G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No,-85.01608833,12.893566631930554
+Niger,Africa,14,"0,5",N/A,,No,No,No,No,8.86863247,17.08105392407292
+Nigeria,Africa,497,"2,3",N/A,,Yes,Yes,Yes,No,8.147714845256194,9.61029352
+Norway,Europe,145,"26,8","107,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,16.670259272390894,64.97775882947745
+Oman,Asia,71,"15,7",N/A,,No,No,No,No,55.84108812,20.72428332
+Pakistan,Asia,559,"2,4",N/A,,No,No,No,No,69.08835090769651,30.116188371410882
+Palau,Oceania,0,"12,2",N/A,,No,No,No,No,134.57965086721052,7.534775852547396
 Panama,Americas,54,"12,4","0,1","Communication  with Ministry of Health in the context of this report: M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn
-(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No
-Papua New Guinea,Oceania,13,"1,3",N/A,,No,No,No,No
-Paraguay,Americas,57,"8,4",N/A,,No,No,No,No
+(Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No,-80.14428761,8.439536749576892
+Papua New Guinea,Oceania,13,"1,3",N/A,,No,No,No,No,144.8348942994695,-7.156912819
+Paraguay,Americas,57,"8,4",N/A,,No,No,No,No,-58.38906357,-23.42190559
 Peru,Americas,221,"6,5","3,4","Communication  with Ministry of Environment in the context of this report M. Wagner, C.P. Balde, V. Luda, I. C Nnorom, R. Kuehr,
-G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",Yes,Yes,Yes,No
-Philippines,Asia,537,"4,7",N/A,,No,No,No,No
+G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",Yes,Yes,Yes,No,-74.11416197,-8.522717984
+Philippines,Asia,537,"4,7",N/A,,No,No,No,No,121.82208941416745,15.586542251094242
 Poland,Europe,517,"13,5","417,8","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
+default/table?lang=en",Yes,Yes,Yes,Yes,19.43573279234468,52.06848055692473
 Portugal,Europe,183,"17,8","60,3","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Puerto Rico,Americas,65,20,N/A,,No,No,No,No
-Qatar,Asia,44,"16,2","0,2","Communication with Ministry of Municipality and Environment in the context of this report: Ministry of Municipality and Environment, 2019.",No,No,No,No
-Republic of Korea,Asia,930,"17,9","443,1","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste).
-https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No
-Republic of Moldova,Europe,21,"6,8","0,2","Communication with Ministry of Agriculture, Regional Deve- lopment and Environment in the context of this report: C.P. Balde,
+default/table?lang=en",Yes,Yes,Yes,Yes,-7.933662184,39.67529214702138
+Puerto Rico,Americas,65,20,N/A,,No,No,No,No,-66.4942534,18.216224086610914
+Qatar,Asia,44,"16,2","0,2","Communication with Ministry of Municipality and Environment in the context of this report: Ministry of Municipality and Environment, 2019.",No,No,No,No,51.19794918743203,25.318528486425386
+South Korea,Asia,930,"17,9","443,1","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste).
+https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,Yes,No,No,127.76224551357649,36.402386712544114
+Moldova,Europe,21,"6,8","0,2","Communication with Ministry of Agriculture, Regional Deve- lopment and Environment in the context of this report: C.P. Balde,
 G. lattoni, V. Luda, I.C Nnorom, 0. Pecheniuk, R. Kuehr, Regional
-E-waste Monitor for the CIS + Georgia -  2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the SCYCLE Programme, Bonn, Germany. https://ewastemonitor.info/wp-content/uploads/2021/11/ REM_202l_CISGEORGIA_WEB_final_nov_ll_spreads.pdf",Yes,Yes,Yes,No
-Romania,Europe,250,13,"71,5","C.P. Balde, G. lattoni, C. Xu, T. Yamamoto, Update of WEEE Collection Rates, Targets, Flows, and Hoarding -  2021 in the EU-27, United Kingdom, Norway, Switzerland, and Iceland, 2022, SCYCLE Programme, United Nations Institute for Training and Research (UNITAR), Bonn, Germany. https://www.scycle.info/new-study-up- date-of-weee-collection-rates-targets-flows-and-hoarding/ Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser /view/env_waseleeos/defauIt/ table?lang=en",Yes,Yes,Yes,Yes
-Russian Federation,Europe,1910,"13,2","120,8","Communication with Analytical Center for the Government of Russian Federation in the context of this report: Forti V., Balde  C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quan- tities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,No
+E-waste Monitor for the CIS + Georgia -  2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the SCYCLE Programme, Bonn, Germany. https://ewastemonitor.info/wp-content/uploads/2021/11/ REM_202l_CISGEORGIA_WEB_final_nov_ll_spreads.pdf",Yes,Yes,Yes,No,28.391111865941348,47.07256746
+Romania,Europe,250,13,"71,5","C.P. Balde, G. lattoni, C. Xu, T. Yamamoto, Update of WEEE Collection Rates, Targets, Flows, and Hoarding -  2021 in the EU-27, United Kingdom, Norway, Switzerland, and Iceland, 2022, SCYCLE Programme, United Nations Institute for Training and Research (UNITAR), Bonn, Germany. https://www.scycle.info/new-study-up- date-of-weee-collection-rates-targets-flows-and-hoarding/ Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/data- browser /view/env_waseleeos/defauIt/ table?lang=en",Yes,Yes,Yes,Yes,25.094158201563292,45.82454894397586
+Russian Federation,Europe,1910,"13,2","120,8","Communication with Analytical Center for the Government of Russian Federation in the context of this report: Forti V., Balde  C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quan- tities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,No,98.67049907,59.039434214106194
 Rwanda,Africa,10,"0,7",2,"Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Association (ISWA), Bonn/Geneva/ Rotterdam.
-https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,No
-Saint Kitts and Nevis,Americas,1,15,N/A,,No,No,No,No
+https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,No,No,29.919439681764082,-2.01468746
+Saint Kitts and Nevis,Americas,1,15,N/A,,No,No,No,No,-62.74560386,17.314736299587768
 Saint Lucia,Americas,2,"11,4","0,03","Roldan M. 2017. ""E-waste management policy and regulatory framework for Saint Lu-cia"". Telecommunication Management
-Group, Inc",No,No,No,No
+Group, Inc",No,No,No,No,-60.96895109,13.895749185129906
 "Saint Vincent and the Grena-
-dines",Americas,1,"10,6",N/A,,No,No,No,No
-Samoa,Oceania,1,"3,1",N/A,,No,No,No,No
-San Marino,Europe,1,"22,1",N/A,,No,No,No,No
-Sao Tome and Principe,Africa,0,"1,9",N/A,,No,No,No,No
-Saudi Arabia,Asia,617,"17,1",N/A,,No,No,No,No
-Senegal,Africa,25,"1,5",N/A,,No,No,No,No
+dines",Americas,1,"10,6",N/A,,No,No,No,No,-61.19376635,13.254808122970651
+Samoa,Oceania,1,"3,1",N/A,,No,No,No,No,-172.4410766,-13.63425295
+San Marino,Europe,1,"22,1",N/A,,No,No,No,No,12.461278349581722,43.942820729097896
+Sao Tome and Principe,Africa,0,"1,9",N/A,,No,No,No,No,6.606158796857607,0.22744704294793774
+Saudi Arabia,Asia,617,"17,1",N/A,,No,No,No,No,44.600958178225596,24.136038144757897
+Senegal,Africa,25,"1,5",N/A,,No,No,No,No,-14.61087537,14.228861491763402
 Serbia,Europe,81,"11,1","31,2","Communication  with IENE in  the  context of this report G. lattoni,
 I.C Nnorom, D. Toppenberg, R. Kuehr, C.P. Balde. Regional E-waste Monitor for the Western Balkans -  2023. International Telecom- munication Union (ITU), United Nations Environment Programme (UNEP) and United Nations Institute for Training and Research (UNITAR) -  SCYCLE Programme.
-https://www.scycle.info/wp-content/uploads/2023/12/Regio- nal-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,No
-Seychelles,Africa,1,"13,5",N/A,,No,No,No,No
-Sierra Leone,Africa,6,"0,7",N/A,,No,No,No,No
-Singapore,Asia,121,"20,3",N/A,,Yes,No,Yes,No
+https://www.scycle.info/wp-content/uploads/2023/12/Regio- nal-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,No,20.85677444395745,44.02679870131969
+Seychelles,Africa,1,"13,5",N/A,,No,No,No,No,55.47250789595527,-4.660002319
+Sierra Leone,Africa,6,"0,7",N/A,,No,No,No,No,-11.78656696,8.561330384750587
+Singapore,Asia,121,"20,3",N/A,,Yes,No,Yes,No,103.81025757634053,1.3528251890006349
 Slovakia,Europe,84,"15,4","47,3","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
+default/table?lang=en",Yes,Yes,Yes,Yes,19.581015362490966,48.69808390520484
 Slovenia,Europe,36,17,"15,1","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
 https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/
-default/table?lang=en",Yes,Yes,Yes,Yes
-Solomon Islands,Oceania,1,"1,1",N/A,,No,No,No,No
-Somalia,Africa,9,"0,5",N/A,,No,No,No,No
+default/table?lang=en",Yes,Yes,Yes,Yes,14.890636899973781,46.13759229564504
+Solomon Islands,Oceania,1,"1,1",N/A,,No,No,No,No,160.16475795033884,-9.613104735
+Somalia,Africa,9,"0,5",N/A,,No,No,No,No,45.40037867243972,6.524534573103924
 South Africa,Africa,527,"8,8","22,9","Lydall M, Nyanjowa W, and James Y. 2017. ""Mapping South Africa's Waste Electrical and Electronic Equipment (WEEE) Dismantling,
-Pre-Processing and Processing Technology Landscape"", Mintek",Yes,Yes,No,No
-South Sudan,Africa,15,"1,4",N/A,,No,No,No,No
+Pre-Processing and Processing Technology Landscape"", Mintek",Yes,Yes,No,No,24.75252746489084,-28.55361931
+South Sudan,Africa,15,"1,4",N/A,,No,No,No,No,30.38518569,7.657782041763295
 Spain,Europe,935,"19,6","395,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by  waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union.
-https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Sri Lanka,Asia,175,8,N/A,,No,No,No,No
-Sudan,Africa,103,"2,2",N/A,,No,No,No,No
-Suriname,Americas,7,"11,1",N/A,,No,No,No,No
-Swaziland,Africa,7,"6,2",N/A,,No,No,No,No
-Sweden,Europe,221,21,"151,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser /view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes
-Switzerland,Europe,204,"23,4",129,"OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,Yes,Yes,Yes
-Syrian Arab Republic,Asia,121,"5,6",N/A,,No,No,No,No
-Taiwan (Province of China),Asia,463,"19,4","145,4","Communication with EPA Taiwan (Province of China) in the context of this report Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union  (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam. https://www.scycle.info/global-e-waste-mo- nitor-2020/",No,No,No,No
+https://ec.europa.eu/eurostat/data browser/view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,-3.651625141,40.365008336683836
+Sri Lanka,Asia,175,8,N/A,,No,No,No,No,80.66931169770622,7.696630939329944
+Sudan,Africa,103,"2,2",N/A,,No,No,No,No,29.951458283594064,15.67060230984256
+Suriname,Americas,7,"11,1",N/A,,No,No,No,No,-55.85551431,4.098723595920171
+Swaziland,Africa,7,"6,2",N/A,,No,No,No,No,#N/A,#N/A
+Sweden,Europe,221,21,"151,2","Eurostat, 2022. Waste electrical and electronic equipment (WEEE) by waste management operations (env_waselee), Metadata in Euro SDMX Metadata Structure (ESMS). Eurostat, the statistical office of the European Union. https://ec.europa.eu/eurostat/databrowser /view/env_waseleeos/ default/table?lang=en",Yes,Yes,Yes,Yes,17.062431988004956,62.73420986108448
+Switzerland,Europe,204,"23,4",129,"OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste). https://stats.oecd.org/lndex.aspx?- DataSetCode=EWASTE",Yes,Yes,Yes,Yes,8.286928794895285,46.73678128684938
+Syria,Asia,121,"5,6",N/A,,No,No,No,No,38.51173231,35.09751106058316
+Taiwan (Province of China),Asia,463,"19,4","145,4","Communication with EPA Taiwan (Province of China) in the context of this report Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union  (ITU) & International Solid Waste Association (ISWA), Bonn/ Geneva/Rotterdam. https://www.scycle.info/global-e-waste-mo- nitor-2020/",No,No,No,No,#N/A,#N/A
 Tajikistan,Asia,12,"1,2","0,11","Communication with lsfara waste plant in the context of this report C.P. Balde, G. lattoni, V. Luda, I.C Nnorom, 0. Pecheniuk,
 R. Kuehr, Regional E-waste Monitor for the CIS + Georgia - 2021, 2021, United Nations University (UNU) / United Nations Institute for Training and Research (UNITAR) -  co-hosting the
-SCYCLE Programme, Bonn, Germany. https://ewastemonitor.info/ wp-content/uploads/2021/11/REM_202l_CISGEORGIA_WEB_final_ nov_ll_spreads.pdf",No,No,No,No
-Thailand,Asia,753,"10,5",29,"Borrirukwisitsak, S., Khwamsawat, K. & Leewattananukul, S. The use of relative potential risk as a prioritization tool for household WEEE management in Thailand. J Mater Cycles Waste Manag 23, 480-488 (2021). https://doi.org/10.1007/sl0163-021-01175-x",No,No,No,No
-The former Yugoslav Republic of Macedonia,Europe,21,10,"3,4","Communication with  SSO 2022/MoEPP 2022 in the context of this report G. lattoni, I.C Nnorom, D. Toppenberg, R. Kuehr, C.P. Balde. Regional E-waste Monitor for the Western Balkans -  2023. International Telecommunication Union (ITU), United Nations Environment Programme (UNEP) and United Nations Institute for Training and Research (UNITAR) -  SCYCLE Programme. https://www.scycle.info/wp-content/uploads/2023/12/Regio- nal-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,No
-Timor-Leste,Asia,2,"1,6",N/A,,No,No,No,No
-Togo,Africa,8,"0,9",N/A,,No,No,No,No
-Tonga,Oceania,0,4,N/A,,No,No,No,No
-Trinidad and Tobago,Americas,24,"15,4",N/A,,No,No,No,No
-Tunisia,Africa,85,"6,9",N/A,,No,No,No,No
-Turkey,Asia,1077,"12,7","186,9","Communication with Exitcom in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,Yes,Yes
-Turkme- nistan,Asia,46,"7,1",N/A,,No,No,No,No
-Tuvalu,Oceania,0,"2,4",N/A,,No,No,No,No
+SCYCLE Programme, Bonn, Germany. https://ewastemonitor.info/ wp-content/uploads/2021/11/REM_202l_CISGEORGIA_WEB_final_ nov_ll_spreads.pdf",No,No,No,No,70.94215281065698,38.56933138382972
+Thailand,Asia,753,"10,5",29,"Borrirukwisitsak, S., Khwamsawat, K. & Leewattananukul, S. The use of relative potential risk as a prioritization tool for household WEEE management in Thailand. J Mater Cycles Waste Manag 23, 480-488 (2021). https://doi.org/10.1007/sl0163-021-01175-x",No,No,No,No,101.08675116214552,13.66222784745538
+North Macedonia,Europe,21,10,"3,4","Communication with  SSO 2022/MoEPP 2022 in the context of this report G. lattoni, I.C Nnorom, D. Toppenberg, R. Kuehr, C.P. Balde. Regional E-waste Monitor for the Western Balkans -  2023. International Telecommunication Union (ITU), United Nations Environment Programme (UNEP) and United Nations Institute for Training and Research (UNITAR) -  SCYCLE Programme. https://www.scycle.info/wp-content/uploads/2023/12/Regio- nal-E-waste-Monitor-Balkan-2023.pdf",Yes,Yes,Yes,No,21.70998923872772,41.59402890143112
+Timor-Leste,Asia,2,"1,6",N/A,,No,No,No,No,125.95024049562659,-8.809894631
+Togo,Africa,8,"0,9",N/A,,No,No,No,No,0.8990857571109684,8.660743037717811
+Tonga,Oceania,0,4,N/A,,No,No,No,No,-175.2041588,-21.15927213
+Trinidad and Tobago,Americas,24,"15,4",N/A,,No,No,No,No,-61.3723658,10.415515638298093
+Tunisia,Africa,85,"6,9",N/A,,No,No,No,No,9.655875517,34.08636179565723
+Turkey,Asia,1077,"12,7","186,9","Communication with Exitcom in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & International Solid Waste Assa- ciation (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,Yes,Yes,Yes,35.56886764076691,38.93207363123396
+Turkmenistan,Asia,46,"7,1",N/A,,No,No,No,No,58.45773576,39.06069118001429
+Tuvalu,Oceania,0,"2,4",N/A,,No,No,No,No,179.217834,-8.514701506
 Uganda,Africa,41,"0,9","0,2","Communication with Computers for School Uganda in the context of this report: Forti V., Balde C.P., Kuehr R., Bel G. The Global
 E-waste Monitor 2020: Quantities, flows and the circular economy potential. United Nations University (UNU)/United Nations  Institute for Training and Research (UNITAR) -  co-hosted SCYCLE Programme, International Telecommunication Union (ITU) & Inter-
-national Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,No,No,No
-Ukraine,Europe,385,"8,9","31,2","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",Yes,No,No,No
-United Arab Emirates,Asia,178,"18,9","5,4","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",Yes,Yes,No,No
-United Kingdom of Great Britain and Northern Ireland,Europe,1652,"24,5","501,9","UK Environment  Agency, 2022. WEEE collected in the UK. https://www.gov.uk/government/statistical-data-sets/waste-elec- trical-and-electronic-equipment-weee-in-the-uk",Yes,Yes,Yes,Yes
-"United Republic of
-Tanzania",Africa,61,"0,9",N/A,,Yes,Yes,No,No
-United States of America,Americas,7188,"21,3","4052,8","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste).
-https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No
+national Solid Waste Association (ISWA), Bonn/Geneva/Rotterdam. https://www.scycle.info/global-e-waste-monitor-2020/",Yes,No,No,No,32.34371768463123,1.2821729218416205
+Ukraine,Europe,385,"8,9","31,2","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",Yes,No,No,No,31.27377208442636,48.657532515563794
+United Arab Emirates,Asia,178,"18,9","5,4","UNSD -   Environment Statistics. Retrieved August 1, 2023, from https://unstats.un.org/unsd/envstats/qindicators",Yes,Yes,No,No,54.27920525789581,24.18250292309135
+United Kingdom,Europe,1652,"24,5","501,9","UK Environment  Agency, 2022. WEEE collected in the UK. https://www.gov.uk/government/statistical-data-sets/waste-elec- trical-and-electronic-equipment-weee-in-the-uk",Yes,Yes,Yes,Yes,-2.852943909,53.97844735080214
+Tanzania,Africa,61,"0,9",N/A,,Yes,Yes,No,No,34.81832206060381,-6.35579444
+United States,Americas,7188,"21,3","4052,8","OECD Statistics, 2022. Waste from electrical and electronic equipment (WEEE -  e-waste).
+https://stats.oecd.org/lndex.aspx?DataSetCode=EWASTE",Yes,No,No,No,-96.33161661,38.82080892
 Uruguay,Americas,44,"12,9","1,3","Communication with Ministry of Environment in the context of this report: M. Wagner, C.P. Balde, V. Lucia, I. C Nnorom, R. Kuehr,
-G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No
-Uzbekistan,Asia,128,"3,7",N/A*,Internal data from UNITAR that is confidential. Data point is added to the global totals.,No,No,No,No
-Vanuatu,Oceania,0,"1,2",N/A,,No,No,No,No
-Venezuela (Bolivarian Republic of),Americas,303,"10,8",1,"Communication  with Ministry of the People's Power for Eco-soci- alism (MINEC) in the  context of this report: M. Wagner, C.P. Balde,
+G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.scycle.info/regional-e-waste-moni- tor-latin-america-2021/",No,No,No,No,-56.01919523,-32.78195044
+Uzbekistan,Asia,128,"3,7",N/A*,Internal data from UNITAR that is confidential. Data point is added to the global totals.,No,No,No,No,63.85482976,41.48790652
+Vanuatu,Oceania,0,"1,2",N/A,,No,No,No,No,166.84912735669738,-15.18913212
+Venezuela,Americas,303,"10,8",1,"Communication  with Ministry of the People's Power for Eco-soci- alism (MINEC) in the  context of this report: M. Wagner, C.P. Balde,
 V. Luda, I. C Nnorom, R. Kuehr, G. lattoni. Regional E-waste Monitor for Latin America: Results for the 13 countries participating in project UNIDO-GEF 5554, Bonn (Germany), 2022. https://www.
-scycle.info/regional-e-waste-monitor-latin-america-2021/",No,No,No,No
-Viet Nam,Asia,516,"5,3",N/A,,Yes,Yes,No,No
-Yemen,Asia,49,1.5,N/A,,No,No,No,No
-Zambia,Africa,23,"1,1",N/A,,Yes,Yes,No,No
-Zimbabwe,Africa,17,"1,1","0,03","UNSD -   Environment Statistics. Retrieved August 1. 2023, from https://unstats.un.org/unsd/envstats/qindicators",No,No,No,No
+scycle.info/regional-e-waste-monitor-latin-america-2021/",No,No,No,No,-66.36492136,7.148324760507107
+Vietnam,Asia,516,"5,3",N/A,,Yes,Yes,No,No,105.91338832758704,16.517347170839393
+Yemen,Asia,49,1.5,N/A,,No,No,No,No,47.46815793206386,16.001392616307445
+Zambia,Africa,23,"1,1",N/A,,Yes,Yes,No,No,27.75521363430896,-13.16283295
+Zimbabwe,Africa,17,"1,1","0,03","UNSD -   Environment Statistics. Retrieved August 1. 2023, from https://unstats.un.org/unsd/envstats/qindicators",No,No,No,No,29.717829640720844,-18.92700122

@@ -5,14 +5,13 @@ library(plotly)
 library(DT)
 library(tidyr)
 library(shinydashboard)
-library(threejs)
 
 
 # load data sets
 mineral <- read.csv("Mineral ores round the world.csv")
 smartphones <- read.csv("Sales.csv")  # Adjust the path accordingly
-
-
+#setwd('D:/Caitlin/School/JupyterNotebooks/5260-final')
+ewaste <- read.csv('ewaste cleaned.csv')
 
 
 # data set cleaning
@@ -29,8 +28,11 @@ smartphones <- smartphones %>%
   mutate(Memory = as.numeric(gsub(" GB", "", Memory)),  # Assuming Memory is in the format "32 GB"
          Storage = as.numeric(gsub(" GB", "", Storage)))  # Assuming Storage is in the format "128 GB"
 
-
-
+ewaste <- ewaste %>% 
+  mutate(Latitude = as.numeric(Latitude), 
+         Longitude = as.numeric(Longitude), 
+         ewaste_generated_capita = as.numeric(E.WASTE.GENERATED..KG.CAPITA.), 
+         ewaste_gen_total = as.numeric(E.WASTE.GENERATED..MILLION.KG.))
 
 
 # ui
@@ -454,9 +456,16 @@ server <- function(input, output, session) {
   
   # creating output for ewaste page 
   output$ewaste_map <- renderLeaflet({
-    leaflet() %>%
+    leaflet(data = ewaste) %>%
       addTiles() %>%
-      setView(lng = 0, lat = 0, zoom = 2)
+      addCircleMarkers(data = ewaste,
+                       lat = ~Latitude, lng = ~Longitude,
+                       radius = 3, clusterOptions = markerClusterOptions(),
+                       popup = ~paste(
+                                      "<br>Country: ", ifelse(is.na(COUNTRY), "N/A", COUNTRY),
+                                      "<br>Ewaste Generated: ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
+                                      '<br><a href="https://www.google.com/maps?q=', Latitude, ',', Longitude, '" target="_blank">Open in Google Map</a>'
+                       ))
   })
   
 }
