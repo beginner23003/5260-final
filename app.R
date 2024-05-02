@@ -213,14 +213,14 @@ ui <- dashboardPage(
       tabItem(tabName = "ewaste", 
               fluidRow(
                 box(title = "Filter Information", width = 4
-                    #,
-                    #sliderInput("EWaste Range",
-                    #            "E-Waste Generated:",
-                    #            min = min(ewaste$ewaste_gen_total, na.rm = TRUE),
-                    #            max = max(ewaste$ewaste_gen_total, na.rm = TRUE),
-                    #            value = c(min(ewaste$ewaste_gen_total, na.rm = TRUE), 
-                    #                     max(ewaste$ewaste_gen_total, na.rm = TRUE)),
-                    #            step = 10)  
+                    , 
+                    sliderInput("ewaste_range",
+                                "E-Waste Generated:",
+                                min = min(ewaste$ewaste_gen_total, na.rm = TRUE),
+                                max = max(ewaste$ewaste_gen_total, na.rm = TRUE),
+                                value = c(min(ewaste$ewaste_gen_total, na.rm = TRUE), 
+                                         max(ewaste$ewaste_gen_total, na.rm = TRUE)),
+                                step = 10)  
                   
                 ), 
                 box(title = "EWaste Produced Globally", width = 8,
@@ -471,30 +471,15 @@ server <- function(input, output, session) {
       scale_color_discrete(name = "Brand")
   })
   
-  
+    
   # creating output for ewaste page 
-  # attempt 1 
-  #output$ewaste_map <- renderLeaflet({
-  #  leaflet(data = ewaste) %>%
-  #    addTiles() %>%
-  #    addCircleMarkers(data = ewaste,
-  #                     lat = ~Latitude, lng = ~Longitude,
-  #                     radius = 3, clusterOptions = markerClusterOptions(),
-  #                     popup = ~paste(
-  #                                    "<br>Country: ", ifelse(is.na(COUNTRY), "N/A", COUNTRY),
-  #                                    "<br>Ewaste Generated (million KG): ", ifelse(is.na(ewaste_gen_total), "N/A", ewaste_gen_total),
-  #                                    '<br><a href="https://www.google.com/maps?q=', Latitude, ',', 
-  #                                    Longitude, '" target="_blank">Open in Google Map</a>'
-  #                     ))
-  #})
-  
+  filtered_ewaste <- reactive({
+    ewaste %>%
+      filter(ewaste_gen_total >= input$ewaste_range[1], 
+             ewaste_gen_total <= input$ewaste_range[2])
+  })
   output$ewaste_map <- renderLeaflet({
-    # Filter data based on the slider input
-    #filtered_data <- ewaste %>%
-    #  filter(ewaste_gen_total >= input$ewasteRange[1] & ewaste_gen_total <= input$ewasteRange[2])
-    
-    
-    leaflet(data = filtered_data) %>%
+    leaflet(data = filtered_ewaste()) %>%
       addProviderTiles(providers$CartoDB.Positron) %>%
       addPolygons(
         fillColor = ~pal(ewaste_gen_total),
@@ -504,8 +489,7 @@ server <- function(input, output, session) {
         dashArray = "3",
         fillOpacity = 0.7,
         popup = ~paste(NAME, "<br>", "E-Waste Generated: ", ewaste_gen_total)
-      ) %>%
-      addLegend(pal = pal, values = ~ewaste_gen_total, opacity = 0.7, title = "E-Waste Generated")
+      ) 
   })
   
   
