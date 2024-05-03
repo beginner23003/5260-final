@@ -48,11 +48,11 @@ ewaste <- ewaste %>%
 # ui
 ui <- dashboardPage(
   skin = "green",
-  dashboardHeader(title = "Physical Impact of Tech"),
+  dashboardHeader(title = "Tech Impacts"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Introduction", tabName = "intro", icon = icon("info-circle")),
-      menuItem("Map", tabName = "map", icon = icon("map")),
+      menuItem("Mineral Map", tabName = "map", icon = icon("map")),
       menuItem("US Mineral Site Num", tabName = "us_num", icon = icon("bar-chart")),
       menuItem("Main Commod Site Num", tabName = "main_commod", icon = icon("bar-chart")),
       menuItem("Smartphone Pricing", tabName = "smartphone_pricing", icon = icon("mobile")),
@@ -446,7 +446,7 @@ server <- function(input, output, session) {
     
     ggplot(data, aes(x = reorder(Brands, -AveragePrice), y = AveragePrice, fill = Brands)) +
       geom_col(show.legend = FALSE) +
-      labs(x = "Brand", y = "Average Selling Price ($)", title = "Average Selling Price by Brand") +
+      labs(x = "Brand", y = "Average Selling Price", title = "Average Selling Price by Brand") +
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   })
