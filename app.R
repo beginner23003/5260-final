@@ -130,6 +130,8 @@ ui <- dashboardPage(
               fluidRow(
                 box(
                   width = 4,
+                  title = "Mineral distribution around the world",
+                 
                   selectInput("country", "Select Country:",
                               choices = c("all", unique(mineral$country))),
                   selectizeInput("state", "Select State:",
@@ -151,7 +153,7 @@ ui <- dashboardPage(
       tabItem(tabName = "us_num",
               fluidRow(
                 box(
-                  width = 12,
+                  width = 4,
                   title = "Number of mineral sites within the United States",
                   selectInput("commod1_plot", "Select Main Commodity:",
                               choices = c("all", unique(mineral$main_commod)),
@@ -162,6 +164,11 @@ ui <- dashboardPage(
                               multiple = TRUE,
                               selected = "all"),
                   actionButton("reset_filters_plot", "Reset Filters")
+                ),
+                box(
+                  width = 8,
+                  title = "Some insights",
+                  verbatimTextOutput("us_num_insight")
                 )
               ),
               fluidRow(
@@ -190,6 +197,14 @@ ui <- dashboardPage(
                 ),
                 box(
                   width = 8,
+                  title = "Some insights",
+                  verbatimTextOutput("main_commod_insight")
+                )
+                
+              ),
+              fluidRow(
+                box(
+                  width = 12,
                   div(
                     style = "height: 600px; overflow-y: scroll; display: flex; justify-content: flex-start;",
                     plotlyOutput("plot_3")
@@ -414,6 +429,14 @@ server <- function(input, output, session) {
     #subplot(p, p2, nrows = 1)
   })
   
+  output$us_num_insight <- renderText({
+    conclusion <- "1. California has the most mineral sites in the US with more than 42,000\n" 
+    conclusion <- paste(conclusion, "2. Arizona has only 1 mineral site\n", sep = "")
+    conclusion <- paste(conclusion, "3. The distribution of mining sites varies greatly from state to state, from tens of thousands to dozens or even a few\n", sep = "")
+    conclusion <- paste(conclusion, "4. Gold is the most popular mineral around the world, with over 20,000 in California alone", sep = "")
+    conclusion
+  })
+  
   # filter page 3
   filtered_data_3 <- reactive({
     data <- mineral
@@ -455,6 +478,12 @@ server <- function(input, output, session) {
       layout(height = 2000)
     
     p
+  })
+  
+  output$main_commod_insight <- renderText({
+    conclusion <- "1. Gold, Sand and Gravel are the most common commodities, with more than 60,000 mineral sites and more than 45,000 mineral sites respectively\n" 
+    conclusion <- paste(conclusion, "2. The United States has an overwhelming number of mineral sites\n", sep = "")
+    conclusion
   })
   
   
